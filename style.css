@@ -1,5 +1,3 @@
-/* Your CSS goes here... */
-
 /* varela-round-regular - latin */
 @font-face {
   font-family: 'Varela Round';
@@ -80,6 +78,7 @@ kbd {
 #header-logo {
   max-width: 100%;
   height: auto;
+  transition: transform 2s ease-in-out;
 }
 
 #site-title {
