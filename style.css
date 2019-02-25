@@ -120,6 +120,30 @@ kbd {
   order: 4;
 }
 
+#github {
+  order: 5;
+  margin-top: 40px;
+}
+
+#github-icon {
+  fill: #8957ab;
+  position: relative;
+  bottom: 1px;
+}
+
+a#github-repo-link {
+  border: none;
+  margin-right: 10px;
+}
+
+a#github-repo-link:hover {
+  border: none;
+}
+
+a#github-repo-link:hover svg {
+  fill: #9861be;
+}
+
 section {
   padding: 50px 15px 50px;
 }
@@ -150,7 +174,8 @@ section {
 }
 
 .steps,
-.mods {
+.mods,
+#demo .intro {
   max-width: 600px;
   margin: auto;
 }
@@ -272,5 +297,8 @@ section {
   }
   #site-header {
     padding: 15px 15px 90px;
+  }
+  #github {
+    margin-top: 60px;
   }
 }
